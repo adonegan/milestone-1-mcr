@@ -83,8 +83,21 @@ h5 {
 
 /* ------------------------------------------ Clips */
 
+/* ------------------------------------------ Interviews */
 
+h3 {
+    margin-top: 10px;
+}
 
+.embed-responsive {
+    margin-bottom: 30px;
+    margin-top: 15px
+}
+
+.box-quote {
+    border: dotted 1px black;
+    margin-bottom: 10px;
+}
 /* ------------------------------------------ Footer */
 
 #footer-details {
