@@ -40,7 +40,7 @@ a:hover {
     color: green;
 }
 
-/* ------------------------------------------ Section */
+/* ------------------------------------------ Home */
 
 #carouselExampleControls {
     margin: 0
@@ -54,6 +54,10 @@ a:hover {
     width: 400px;
     height: 500px;
 }
+
+/* ------------------------------------------ About */
+
+
 
 /* ------------------------------------------ News and Tour */
 
@@ -79,6 +83,10 @@ a:hover {
 
 h5 {
     text-align: center;
+    font-family: "Quicksand" sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    /*-- check all h5s are the same */
 }
 
 /* ------------------------------------------ Clips */
@@ -98,10 +106,18 @@ h3 {
     border: dotted 1px black;
     margin-bottom: 10px;
 }
+
+/* ------------------------------------------ Contact */
+
+button {
+    margin-top: 20px;
+}
+
+
 /* ------------------------------------------ Footer */
 
 #footer-details {
-    min-height: 140px;
+    min-height: 130px;
     background-color: blue;
 }
 
@@ -109,6 +125,3 @@ h3 {
     padding-top: 50px;
 }
 
-.social-links {
-    
-}

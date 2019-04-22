@@ -20,7 +20,7 @@
             <div class="col-6 uppercase">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -35,14 +35,34 @@
                         <a class="nav-link" href="#">Interviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link active" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
     <section>
-        Main section
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="assets/images/get-in-touch-bubble.png" alt="speech bubble"></img>
+                </div>
+                <div class="col-6">
+                    <h5>Are you a big fan? Tell us all about it!</h5>
+                    <form class"contact-us">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email address" required />
+                        <textarea rows="5" name="emailsummary" id="emailsummary" class="form-control" placeholder="Email" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="send-now" class="btn btn-success">Send now!</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -78,7 +98,7 @@
                 </ul>
             </div>
         </div>
-        
+
     </footer>
 
 </body>
