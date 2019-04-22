@@ -40,8 +40,44 @@ a:hover {
 
 /* ------------------------------------------ Section */
 
+#carouselExampleControls {
+    margin: 0
+}
 
+.active {
+    margin: 0;
+}
 
+.carousel-item {
+    width: 400px;
+    height: 500px;
+}
+
+/* ------------------------------------------ News and Tour */
+
+.box-news {
+    margin: 20px;
+}
+
+.box-tour {
+    margin: 20px;
+}
+
+.news-item {
+    margin: 0px;
+    border: black dotted 1px;
+    padding: 25px;
+}
+
+.tour-item {
+    margin: 0px;
+    border: black dotted 1px;
+    padding: 25px;
+}
+
+h5 {
+    text-align: center;
+}
 
 /* ------------------------------------------ Footer */
 
