@@ -5,45 +5,251 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Milestone 1 My Chemical Romance</title>
 </head>
 
-<body>
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <h1 class="title">My Chemical Romance</h1>
-            </div>
-            <div class="col-6 uppercase">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Clips</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Interviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" align="right">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a>
+        <li class="nav-item"><a href="#about" class="nav-link active">About</a>
+        <li class="nav-item"><a href="#clips" class="nav-link active">Clips</a>
+        <li class="nav-item"><a href="#interviews" class="nav-link active">Interviews</a>
+        <li class="nav-item"><a href="#contact" class="nav-link active">Contact</a>
+        </li>
+        </ul>
+        </nav>
+        
+        <div id="home" class="container-fluid bg-dark text-white" style="padding-top: 70px padding-bottom:70px">
+            <h1 class="band-name">My Chemical Romance</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <div class="jumbotron-fluid">
+                        <img src="assets/images/the-band-2.jpg" class="front-cover" alt="MCR"></img></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
-    <section>
-        Main section
+        
+        <div id="about" class="container-fluid bg-danger text-white" style="padding-top: 70px padding-bottom:70px">
+            <section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Meet the band</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-2">
+                            <img src="assets/images/frank-iero-3.png" alt="frank iero" height="200" width="200"></img>
+                            <p class="members">Frank Iero</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="assets/images/bob-bryar-1.png" alt="bob-bryar" height="200" width="200"></img>
+                            <p class="members">Bob Bryar</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="assets/images/gerard-way-4.png" alt="gerard way" height="200" width="200"></img>
+                            <p class="members">Gerard Way</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="assets/images/ray-toro.png" alt="ray toro" height="200" width="200"></img>
+                            <p class="members">Ray Toro</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="assets/images/mikey-way.png" alt="mikey way" height="200" width="200"></img>
+                            <p class="members">Mikey Way</p>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+        </div>
+        <hr>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-about">
+                        <p>My Chemical Romance is an American rock band from Newark, New Jersey. They formed in 2001 and were top of their game until 2013 when they disbanded. Band members: lead vocablist Gerard Way, guitarists Ray Toro and Frank Iero, bassist Mikey
+                            Way, and Bob Bryar on drums.</p>
+        
+                        <p>I Brought You My Bullets, You Brought Me Your Love, in 2002. Three Cheers for Sweet Revenge, in 2004. The Black Parade, in 2006. Danger Days: The True Lives of the Dangerous Killjoys, in 2009.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row news-and-tour">
+                <div class="col-sm-5 news-item">
+                    <h5>News</h5>
+                    <div class="box-news">
+                        <p>My Chemical Romance is an American rock band from Newark, New Jersey. They formed in 2001 and were top of their game until 2013 when they disbanded. Band members: lead vocablist Gerard Way, guitarists Ray Toro and Frank Iero, bassist Mikey
+                            Way, and Bob Bryar on drums.</p>
+        
+                        <p>I Brought You My Bullets, You Brought Me Your Love, in 2002. Three Cheers for Sweet Revenge, in 2004. The Black Parade, in 2006. Danger Days: The True Lives of the Dangerous Killjoys, in 2009.</p>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5 tour-item">
+                    <h5>Tour</h5>
+                    <div class="box-tour">
+                        <p>My Chemical Romance is an American rock band from Newark, New Jersey. They formed in 2001 and were top of their game until 2013 when they disbanded. Band members: lead vocablist Gerard Way, guitarists Ray Toro and Frank Iero, bassist Mikey
+                            Way, and Bob Bryar on drums.</p>
+        
+                        <p>I Brought You My Bullets, You Brought Me Your Love, in 2002. Three Cheers for Sweet Revenge, in 2004. The Black Parade, in 2006. Danger Days: The True Lives of the Dangerous Killjoys, in 2009.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </section>
+        </div>
+        
+        <div id="clips" class="container-fluid bg-dark" style="padding-top: 70px padding-bottom:70px">
+            <section>
+                <div class="container">
+        
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Studio albums</h3>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-12">
+        
+                            <div class="card-deck">
+                                <div class="card">
+                                    <img src="assets/images/bullets.jpg" class="card-img-top" alt="first album">
+                                    <div class="card-body">
+                                        <h5 class="card-title">I Brought You My Bullets, You Brought Me Your Love</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">2002</small>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="assets/images/three-cheers.jpg" class="card-img-top" alt="second album">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Three Cheers for Sweet Revenge</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">2004</small>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="assets/images/black-parade.jpg" class="card-img-top" alt="third album">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Black Parade</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">2006</small>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="assets/images/danger-days.jpg" class="card-img-top" alt="fourth album">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Danger Days: The True Lives of the Fabulous Killjoys</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">2009</small>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <div id="interviews" class="container-fluid bg-success" style="padding-top: 70px padding-bottom:70px">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Interviews</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/tUJMakgGf84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/035w62kubls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="box-quote">
+                                    <p>
+                                        <p>My Chemical Romance is an American rock band from Newark, New Jersey. They formed in 2001 and were top of their game until 2013 when they disbanded. Band members: lead vocablist Gerard Way, guitarists Ray Toro and Frank
+                                            Iero, bassist Mikey Way, and Bob Bryar on drums.</p>
+        
+                                        <p>I Brought You My Bullets, You Brought Me Your Love, in 2002. Three Cheers for Sweet Revenge, in 2004. The Black Parade, in 2006. Danger Days: The True Lives of the Dangerous Killjoys, in 2009.</p>
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-6">
+                                <div class="box-quote">
+                                    <p>
+                                        <p>My Chemical Romance is an American rock band from Newark, New Jersey. They formed in 2001 and were top of their game until 2013 when they disbanded. Band members: lead vocablist Gerard Way, guitarists Ray Toro and Frank
+                                            Iero, bassist Mikey Way, and Bob Bryar on drums.</p>
+        
+                                        <p>I Brought You My Bullets, You Brought Me Your Love, in 2002. Three Cheers for Sweet Revenge, in 2004. The Black Parade, in 2006. Danger Days: The True Lives of the Dangerous Killjoys, in 2009.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <div id="contact" class="container-fluid bg-success" style="padding-top: 70px padding-bottom:70px">
+        <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="assets/images/get-in-touch-bubble.png" alt="speech bubble"></img>
+                </div>
+                <div class="col-6">
+                    <h5>Are you a big fan? Tell us all about it!</h5>
+                    <form class"contact-us">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email address" required />
+                        <textarea rows="5" name="emailsummary" id="emailsummary" class="form-control" placeholder="Email" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="send-now" class="btn btn-success">Send now!</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
+        </div>
+
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-3"></div>

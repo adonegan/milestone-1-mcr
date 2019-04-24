@@ -10,30 +10,36 @@
 
 /* ------------------------------------------ Heading */
 
+body {
+  position: relative;
+  height: 100%;
+}
+
 header {
     margin: 0;
-    padding-top: 30px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-color: blue;
     min-height: 140px;
 }
 
 .nav {
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
 }
 
+
 .title {
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 10px;
     font-family: "Quicksand", sans-serif;
     font-weight: 100;
 }
 
 ul li a {
-    color: red;
+    
 }
 
 a:hover {
@@ -41,6 +47,24 @@ a:hover {
 }
 
 /* ------------------------------------------ Home */
+
+.band-name {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    padding-top: 5pxs;
+}
+
+.front-cover {
+    border-radius: 0%;
+    width: 800px;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+.jumbotron-fluid {
+    display: block;
+}
 
 #carouselExampleControls {
     margin: 0
@@ -59,6 +83,10 @@ a:hover {
 
 img {
     border-radius: 50%;
+}
+
+.card-img-top {
+    border-radius: 0%;
 }
 
 .members {
@@ -103,6 +131,7 @@ h5 {
 
 h3 {
     margin-top: 10px;
+    color: white;
 }
 
 .embed-responsive {
