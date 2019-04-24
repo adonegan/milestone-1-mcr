@@ -57,7 +57,15 @@ a:hover {
 
 /* ------------------------------------------ About */
 
+img {
+    border-radius: 50%;
+}
 
+.members {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100s;
+    text-align: center;
+}
 
 /* ------------------------------------------ News and Tour */
 
