@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Exo:100,200,300,400,500');
+
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* ------------------------------------------ Home*/
+
+#home {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.band-name {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    color: white
+}
+
+/* ------------------------------------------ About */
+
+img {
+    border-radius: 50%;
+    display: block;
+}
+
+/* ------------------------------------------ Clips */
+
+.card-img-top {
+    border-radius: 0%;
+}
+
+/* ------------------------------------------ Interviews */
+
+
+/* ------------------------------------------ Footer */
+
+#footer-details {
+    min-height: 130px;
+    background-color: black;
+}
+
+
+ul li a i {
+    color: white;
+}
+
+.iconitem a i {
+    padding-top: 22px;
+    display: block;
+    font-size: 30px;
+}
