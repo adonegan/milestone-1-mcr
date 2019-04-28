@@ -16,11 +16,11 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" align="right">
 
         <ul class="navbar-nav">
-            <li class="nav-item"><a href="#home" class="nav-link active">Home</a>
-                <li class="nav-item"><a href="#about" class="nav-link active">About</a>
-                    <li class="nav-item"><a href="#clips" class="nav-link active">Clips</a>
-                        <li class="nav-item"><a href="#interviews" class="nav-link active">Interviews</a>
-                            <li class="nav-item"><a href="#contact" class="nav-link active">Contact</a>
+            <li class="nav-item"><a href="#home" class="nav-link active">HOME</a>
+                <li class="nav-item"><a href="#about" class="nav-link active">ABOUT</a>
+                    <li class="nav-item"><a href="#clips" class="nav-link active">CLIPS</a>
+                        <li class="nav-item"><a href="#interviews" class="nav-link active">INTERVIEWS</a>
+                            <li class="nav-item"><a href="#contact" class="nav-link active">CONTACT</a>
                             </li>
         </ul>
 
@@ -31,7 +31,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    Hi
+
+                    <div id="my-slider" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#my-slider" data-slide-to="1"></li>
+                            <li data-target="#my-slider" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner" rol="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/images/band-1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/band-2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/band-3.jpg" alt="Third slide">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#my-slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                        <a class="carousel-control-next" href="my-slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -39,21 +71,33 @@
 
     <div id="about" class="container-fluid bg-danger text-white">
         <section>
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <h2>Meet the band</h2>
                     </div>
                 </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="box-about">
+                                <p>My Chemical Romance is an American rock band from Newark, New Jersey. They formed in 2001 and were top of their game until 2013 when they disbanded. Band members: lead vocablist Gerard Way, guitarists Ray Toro and Frank
+                                    Iero, and bassist Mikey Way.</p>
+
+                                <p>I Brought You My Bullets, You Brought Me Your Love, in 2002. Three Cheers for Sweet Revenge, in 2004. The Black Parade, in 2006. Danger Days: The True Lives of the Dangerous Killjoys, in 2009.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="row">
-                    <div class="col-sm-1"></div>
+                    <div class="col-sm-2"></div>
                     <div class="col-sm-2">
                         <img src="assets/images/frank-iero-3.png" alt="frank iero" height="200" width="200"></img>
                         <p class="members">Frank Iero</p>
-                    </div>
-                    <div class="col-sm-2">
-                        <img src="assets/images/bob-bryar-1.png" alt="bob-bryar" height="200" width="200"></img>
-                        <p class="members">Bob Bryar</p>
                     </div>
                     <div class="col-sm-2">
                         <img src="assets/images/gerard-way-4.png" alt="gerard way" height="200" width="200"></img>
@@ -77,18 +121,7 @@
 
     <hr>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="box-about">
-                    <p>My Chemical Romance is an American rock band from Newark, New Jersey. They formed in 2001 and were top of their game until 2013 when they disbanded. Band members: lead vocablist Gerard Way, guitarists Ray Toro and Frank Iero, bassist
-                        Mikey Way, and Bob Bryar on drums.</p>
 
-                    <p>I Brought You My Bullets, You Brought Me Your Love, in 2002. Three Cheers for Sweet Revenge, in 2004. The Black Parade, in 2006. Danger Days: The True Lives of the Dangerous Killjoys, in 2009.</p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="row news-and-tour">
             <div class="col-sm-5 news-item">
@@ -216,29 +249,29 @@
         <section>
             <div class="container">
                 <div class="col-12">
-                        <h2>Contact Us</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-1 col-lg-6">
-                        <img src="assets/images/get-in-touch-bubble.png" alt="speech bubble"></img>
-                    </div>
-                    <div class="col-sm-1 col-lg-6">
-                        <h5>Are you a big fan? Tell us all about it!</h5>
-                        <form class "contact-us">
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required />
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email address" required />
-                            <textarea rows="5" name="emailsummary" id="emailsummary" class="form-control" placeholder="Email" required></textarea>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                    <button type="send-now" class="btn btn-success">Send now!</button>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
+                    <h2>Contact Us</h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-1 col-lg-6">
+                    <img src="assets/images/get-in-touch-bubble.png" alt="speech bubble"></img>
+                </div>
+                <div class="col-sm-1 col-lg-6">
+                    <h5>Are you a big fan? Tell us all about it!</h5>
+                    <form class "contact-us">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email address" required />
+                        <textarea rows="5" name="emailsummary" id="emailsummary" class="form-control" placeholder="Email" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="send-now" class="btn btn-success">Send now!</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+    </div>
     </div>
     </section>
     </div>
@@ -277,6 +310,14 @@
 
     </footer>
 
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 </body>
+
+
 
 </html>
