@@ -20,14 +20,14 @@ Wireframes link:
 
 ### Existing Features
 
-Feature 1: Navbar - Allows the user to clearly see what pages are part of the website and can be clicked.
-Feature 2: Carousel - Allows the user to see up to three group shots of the band in their career.
-Feature 3: Round images - Allows the user to identify each member of the current line-up of the band.
-Feature 4: Image cards - Allows the user to see clearly covers of the band's studio albums.
-Feature 5; Audio files -
-Feature 6: Youtube videos - Allows the user to watch band members talk about their career and work.
-Feature 7: Contact form - Allows the user to get in touch with the band through email and they can leave a message.
-Feature 8: Burger minimiser - Allows the user to tap for more information on the navbar.
+* Feature 1: Navbar - Allows the user to clearly see what pages are part of the website and can be clicked.
+* Feature 2: Carousel - Allows the user to see up to three group shots of the band in their career.
+* Feature 3: Round images - Allows the user to identify each member of the current line-up of the band.
+* Feature 4: Image cards - Allows the user to see clearly covers of the band's studio albums.
+* Feature 5: Audio files -
+* Feature 6: Youtube videos - Allows the user to watch band members talk about their career and work.
+* Feature 7: Contact form - Allows the user to get in touch with the band through email and they can leave a message.
+* Feature 8: Burger minimiser - Allows the user to tap for more information on the navbar.
 
 ### Features Left to Implement
 
