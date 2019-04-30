@@ -18,17 +18,19 @@ body {
 .band-name {
     text-align: center;
     font-family: "Quicksand", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 h2 {
     text-align: center;
     font-family: "Quicksand", sans-serif;
     font-weight: 100;
-    color: white
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-
 
 .d-block {
     border-radius: 0%;
@@ -38,12 +40,26 @@ h2 {
     border-bottom: 20px;
 }
 
-
 /* ------------------------------------------ About */
 
 img {
     border-radius: 50%;
     display: block;
+}
+
+h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.members {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;
 }
 
 /* ------------------------------------------ Clips */
@@ -52,16 +68,60 @@ img {
     border-radius: 0%;
 }
 
+.card-title {
+    color: black;
+}
+
+.card-deck {
+    margin-bottom: 40px;
+}
 /* ------------------------------------------ Interviews */
 
+.box-quote {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    border: dotted 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+
+/* ------------------------------------------ Contact Us */
+
+h5 {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+form {
+    padding-bottom: 20px;
+}
 
 /* ------------------------------------------ Footer */
 
 #footer-details {
     min-height: 130px;
     background-color: black;
+    padding-top: 20px;
+    text-align: center;
 }
 
+h6 {
+    display: block;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
 
 ul li a i {
     color: white;
@@ -69,6 +129,5 @@ ul li a i {
 
 .iconitem a i {
     padding-top: 22px;
-    display: block;
     font-size: 30px;
 }
