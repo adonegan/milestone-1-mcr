@@ -9,35 +9,19 @@ body {
 
 /* ------------------------------------------ Navbar*/
 
-@media (min-width: 767px) {    
-   nav {
-    .navbar, .navbar-inverse {
-	border-radius: 0;
-	border: none;
-	margin-bottom: 0;
-	min-height: 80px;
+.navbar-brand {
+    font-family:"Quicksand", sans-serif;
+    font-weight: 100;
 }
 
-.nav li {
-	display: inline;
-	color: white;
+.navbar-toggler-icon {
+    font-size: 20px;
+    float: right;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-	color: #ffffff;
-	font-family: "Quicksand", sans-serif;
-	font-size: 30px;
-	font-weight: 300;
-	padding: 10px 10px 10px 10px;
+.nav-item {
+    text-align: center;
 }
-
-.navbar-inverse .navbar-nav li a:hover {
-	background-color: #444444;
-	transition: 0.7s all linear;
-	height: 100%;
-}
- }
-
 
 
 /* ------------------------------------------ Home*/
@@ -46,15 +30,6 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-}
-
-.band-name {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 300;
-    padding-top: 10px;
-    padding-bottom: 15px;
 }
 
 h2 {
@@ -71,7 +46,9 @@ h2 {
 }
 
 #my-slider {
-    border-bottom: 20px;
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 
 /* ------------------------------------------ About */
