@@ -7,6 +7,11 @@ body {
     border: 0;
 }
 
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* ------------------------------------------ Navbar*/
 
 .navbar-brand {
@@ -35,9 +40,9 @@ body {
 h2 {
     text-align: center;
     font-family: "Quicksand", sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     color: white;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -53,9 +58,16 @@ h2 {
 
 /* ------------------------------------------ About */
 
+.box-about {
+    text-align: justify;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
 img {
     border-radius: 50%;
-    display: block;
+    width: auto;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 h3 {
@@ -69,14 +81,19 @@ h3 {
 .members {
     text-align: center;
     font-family: "Quicksand", sans-serif;
-    font-weight: 100;
-    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 /* ------------------------------------------ Clips */
 
-.card-img-top {
+.card-pic-top {
     border-radius: 0%;
+    padding-left: 0;
+    padding-right: 0;
+    height: 220px;
 }
 
 .card-title {
@@ -89,12 +106,11 @@ h3 {
 /* ------------------------------------------ Interviews */
 
 .box-quote {
-    background-color: white;
-    color: black;
+    color: white;
     text-align: center;
     font-family: "Quicksand", sans-serif;
     font-weight: 200;
-    border: dotted 1px;
+    font-size: 33px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 10px;
@@ -116,6 +132,8 @@ h5 {
 form {
     padding-bottom: 20px;
 }
+
+
 
 /* ------------------------------------------ Footer */
 
