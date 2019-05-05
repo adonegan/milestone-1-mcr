@@ -80,17 +80,17 @@ h2 {
 
 img {
     border-radius: 50%;
-    width: auto;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 h3 {
     font-family: "Quicksand", sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     color: black;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .members {
@@ -118,6 +118,19 @@ h3 {
 .card-deck {
     margin-bottom: 40px;
 }
+
+/* ------------------------------------------ Videos */
+
+.video {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+
 /* ------------------------------------------ Interviews */
 
 .box-quote {
