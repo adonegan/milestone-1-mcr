@@ -56,7 +56,7 @@ h2 {
     font-weight: 500;
     color: white;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .d-block {
@@ -94,7 +94,7 @@ h3 {
     color: black;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .members {
@@ -167,16 +167,12 @@ tr:nth-child(even) {
     color: black;
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 2px;
+    padding-bottom: 50px;
 }
 
 .embed-responsive-item {
     width: 100%;
-    padding-bottom: 20px;
-}
-
-.embed-responsive-item3 {
-    text-align: center;
+    padding-bottom: 50px;
 }
 
 /* ------------------------------------------ Interviews */
@@ -185,8 +181,8 @@ tr:nth-child(even) {
     color: white;
     text-align: center;
     font-family: "Quicksand", sans-serif;
-    font-weight: 200;
-    font-size: 33px;
+    font-weight: 100;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 10px;
@@ -195,6 +191,14 @@ tr:nth-child(even) {
     padding-bottom: 0px;
 }
 
+i {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+}
+
+.ints {
+    padding-bottom: 50px;
+}
 
 /* ------------------------------------------ Contact Us */
 
@@ -206,7 +210,7 @@ h5 {
 }
 
 form {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 
