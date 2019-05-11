@@ -14,6 +14,8 @@ body {
     overflow-y: hidden;
 }
 
+
+
 /* ------------------------------------------ Carousel*/
 
 /* ------------------------------------------ Navbar*/
@@ -21,6 +23,7 @@ body {
 .scroll {
     position: relative;
 }
+
 
 .navbar-dark .nav-item {
     font-family: "Quicksand", sans-serif;
@@ -76,8 +79,10 @@ h2 {
 
 .box-about {
     text-align: justify;
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
 }
 
 img {
@@ -118,14 +123,21 @@ h3 {
     text-align: justify;
     border-left: 15px;
     border-right: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    
 }
 
 .table {
     font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
     border-collapse: collapse;
     overflow: scroll;
     display: inline-table;
     margin-bottom: 50px;
+    padding-top: 10px;
     
 }
 
@@ -144,6 +156,12 @@ tr:nth-child(even) {
 
 
 /* ------------------------------------------ Clips */
+
+.card {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .card-top {
     border-radius: 0%;
@@ -230,14 +248,6 @@ h5 {
 
 #subject {
     margin-bottom: 5px;
-}
-
-.btn-danger {
-    margin-top: 20px;
-    width: 150px;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 500;
-    margin-bottom: 50px;
 }
 
 
