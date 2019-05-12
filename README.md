@@ -1,16 +1,18 @@
 # My Chemical Romance Official Website
 
 This is a static website for rock band My Chemical Romance. 
-This band formed in 2001 and stopped touring in 2014, though they perform on occasion at request. 
-They wanted this website created for fans and potential fans to let them know any news and upcoming events.
+This band formed in 2001 and stopped touring in 2014, though they perform on occasion at request
+- as you can see from website they have six tour dates coming up. 
+They wanted this website created for fans and potential fans to showcase their work and let fans know any news and upcoming events.
 
 ## UX
 
 This website is for fans, potential fans and is a way anyone can get in touch with the band directly.
-On the site, people can listen to recordings, watch band interviews and see photos of the band.
+On the site, people can listen to audio clips, watch a band interview, see photos of the band, get information about the tour and get in touch.
 
 * As a long-time fan, I want to be kept informed of news and tour information.
-* As a new fan, I want to listen to the band's music and watch videos of previous interviews.
+* As a new fan, I want to listen to the band's music and watch videos of previous interviews and music videos.
+* I want to be linked to other social media accounts to see all of their work not listed on the website.
 * As someone who just happens upon the site, I want to know what the band is all about.
 * As a booking agent and promoter, I want to be able to get in touch with this band to play at my event.
 
@@ -20,16 +22,17 @@ Wireframes link:
 
 ### Existing Features
 
-* Feature 1: Navbar - Allows the user to clearly see what pages are part of the website and can be clicked.
-* Feature 2: Carousel - Allows the user to see up to three group shots of the band in their career.
-* Feature 3: Round images - Allows the user to identify each member of the current line-up of the band.
-* Feature 4: Image cards - Allows the user to see clearly covers of the band's studio albums.
-* Feature 5: Audio files -
-* Feature 6: Youtube videos - Allows the user to watch band members talk about their career and work.
-* Feature 7: Contact form - Allows the user to get in touch with the band through email and they can leave a message.
-* Feature 8: Burger minimiser - Allows the user to tap for more information on the navbar.
+* Feature 1: Navbar - Allows the user to clearly see what pages are part of the website and can be clicked, which will take them to the section of the page.
+* Feature 2: Carousel - Allows the user to see up to three shots of the band in their career to date.
+* Feature 3: Round images - Allows the user to identify each member of the current line-up of the band and their names.
+* Feature 4: Audio files - Allows the user to see clearly covers of the band's studio albums and hear a 30 second snippet of a song.
+* Feature 5: Youtube videos - Allows the user to watch band members talk about their career and work and some of their previous music videos.
+* Feature 6: Contact form - Allows the user to get in touch with the band through email and they can leave a message.
+* Feature 7: Burger minimiser - Allows the user to tap for more information on the navbar in mobile view.
 
 ### Features Left to Implement
+
+In the future the band want to be able to sell their merchandise directly from this website, instead of linking to external sites.
 
 ## Technologies Used
 
@@ -41,6 +44,8 @@ Below is a list of languages, frameworks, libraries, and other tools used to cre
 * JavaScript / jQuery - To make my page features more dynamic and animated when used.
 
 ## Testing
+
+
 
 ## Deployment
 
@@ -55,22 +60,27 @@ The text for the About, News and Tour sections were created by Aileen Donegan wi
 
 The photos used in this site were obtained from Google Images, with links to separate pages:
 
-* band-1: https://dobienews.scuc.txed.net/wp-content/uploads/2018/03/mcr1.jpg
-* band-2: https://images.contentstack.io/v3/assets/blt1b60905dd65bfb9b/blt7020320471be4117/5b062bdcff49f05073ac7ea7/gerard-way-interview-3.jpg
-* band-3: 
-* black-parade:
-* bullets:
-* danger-days:
-* frank-iero-3:
-* gerard-way-4:
-* mikey-way:
-* ray-toro:
-* three-cheers:
-* get-in-touch-bubble:
+* headshot1: https://m.media-amazon.com/images/M/MV5BODU1MjZmMGItM2YyYy00NzlkLTkyZmUtNDUxNjE0NTBiOTdlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg 
+* headshot2: https://images.contentstack.io/v3/assets/blt1b60905dd65bfb9b/blt7020320471be4117/5b062bdcff49f05073ac7ea7/gerard-way-interview-3.jpg
+* headshot3: https://www.aceshowbiz.com/images/wennpic/my-chemical-romance-performing-live-at-palasharp-07.jpg
+* frank-iero: https://www.billboard.com/files/media/frank-iero-portrait-billboard-1548.jpg
+* gerard-way: https://www.shemazing.net/wp-content/uploads/2017/07/gee-way-gerard-way-mcr-favim.jpeg
+* mikey-way: https://i0.wp.com/travisfaulk.com/wp-content/uploads/2013/05/Mikey-Way.jpg?resize=500%2C372
+* ray-toro: http://beatnb.org/wp-content/uploads/2014/09/ray-toro-close-up-large-msg-116494353969.jpg
+* favicon: https://data.whicdn.com/images/85952156/large.jpg 
 
 The videos used in this site were obtained from Youtube: 
 
-* My Chemical Romance Interview Part 1 from Warner Music Germany: https://www.youtube.com/watch?v=tUJMakgGf84
 * My Chemical Romance The Grammy Museum Interview Part 2 from My Chemical Romance: https://www.youtube.com/watch?v=035w62kubls
+* Helena official music video: https://www.youtube.com/watch?v=UCCyoocDxBA
+* Welcome to the Black Parade official video: https://www.youtube.com/watch?v=RRKJiM9Njr8
+
+Audio from Apple Music:
+
+* Early Sunsets Over Monroeville single: https://itunes.apple.com/ie/album/early-sunsets-over-monroeville/1157609234?i=1157610143
+* I'm Not Okay, I Promise single: https://itunes.apple.com/ie/album/im-not-okay-i-promise/1156311431?i=1156311437
+* This Is How I Disappear single: https://itunes.apple.com/ie/album/this-is-how-i-disappear/1156310650?i=1156310690
+* Na Na Na single: https://itunes.apple.com/ie/album/na-na-na-na-na-na-na-na-na-na-na-na/398265947?i=398265949
 
 ### Acknowledgements
+
