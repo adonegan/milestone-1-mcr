@@ -88,7 +88,7 @@ h2 {
 .box-about {
     text-align: justify;
     font-size: 1.3rem;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
     margin-left: 20px;
@@ -140,14 +140,15 @@ h3 {
     margin-left: 20px;
     margin-right: 20px;
     text-align: justify;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .tour-dates {
     font-family: "Quicksand", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
-    border: white 2px solid;
+    font-size: 1.2rem;
+    border: grey 2px solid;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -163,7 +164,19 @@ h3 {
 
 /* ------------------------------------------ Clips */
 
+.apple {
+    margin: 10px;
+}
 
+.btn-light {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    width: 150px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
 
 /* ------------------------------------------ Videos */
 
@@ -224,7 +237,8 @@ h5 {
 
 .contact-us {
     font-family: "Quicksand", sans-serif;
-    font-weight: 200;
+    font-weight: 500;
+    font-size: 1.3rem;
     margin-right: 15px;
     margin-left: 15px;
 }
