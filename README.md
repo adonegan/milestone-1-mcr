@@ -1,7 +1,7 @@
 # My Chemical Romance Official Website
 
-This is a static website for rock band My Chemical Romance. This band formed in 2001 and stopped touring in 2014, though they perform on occasion at request. As you can see from website they have six tour dates coming up. 
-They wanted this website created for fans and potential fans to showcase their work and let fans know any news and upcoming events.
+This is a static website for rock band My Chemical Romance. This band formed in 2001 and stopped touring in 2014, however they are back for a short summer tour in Europe. As you can see from the website they have six tour dates coming up. 
+They wanted this website created for fans and potential fans to showcase their work and let fans know any news and upcoming events. They also wanted a way for fans to reach them directly.
 
 ## UX
 
