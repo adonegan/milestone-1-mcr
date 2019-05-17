@@ -15,6 +15,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="80">
 
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
+        <!----- navbar code from Bootstrap ----->
         <img class="logo" src="assets/images/mcr-logo.png"></img>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,12 +40,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-4 col-md-12 col-lg-12">
+<!----- my-slider id taken from a youtube tutorial by Quentin Watt which is linked in README file ---->
                     <div id="my-slider" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#my-slider" data-slide-to="0" class="active"></li>
                             <li data-target="#my-slider" data-slide-to="1"></li>
                             <li data-target="#my-slider" data-slide-to="2"></li>
                         </ol>
+<!----- rest of carousel from Bootstrap ---->                        
                         <div class="carousel-inner" rol="listbox">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="assets/images/headshot1.jpg" alt="First slide">
@@ -115,7 +118,8 @@
                     <p class="tour-info">My Chemical Romance called their split in 2013 after years travelling the world and playing in cities such as New York, London, Paris and Dublin. Though out of action since then, the band regularly updates its core fans, the MCRmy,
                         with one-off shows and performances - check out when they're playing next on this website.</p>
                         
-   <!------- The tour dates below are not real; I have included them to show what my site can do with a band's possible tour dates ----->                     
+   <!------- The tour dates below are not real; I have included them to show what my site can do with a band's possible tour dates -----> 
+   <!------- Buttons in the following sections are taken from Bootstrap ----->
 
                     <div class="container-fluid">
                         <div class="row">
@@ -172,7 +176,7 @@
                     <h2>Studio albums</h2>
                 </div>
             </div>
-
+<!------- embeds from Apple store ----->
             <div class="container">
                 <div class="row">
                     <div class="col-sm-1 col-md-6 col-lg-3">
@@ -225,6 +229,7 @@
                     <h3>Music Videos</h3>
                 </div>
             </div>
+<!------ Videos from YouTube ----->
             <div class="container">
                 <div class="row">
                     <div class="col-sm-1 col-md-6 col-lg-6">
@@ -296,6 +301,7 @@
                     <h2>Contact Us</h2>
                 </div>
             </div>
+<!---- contact form from Bootstrap ----->
             <div class="row">
                 <div class="col-sm-1 col-md-2 col-lg-3"></div>
                 <div class="col-sm-1 col-md-8 col-lg-6">
@@ -329,6 +335,7 @@
             <div class="col-12">
                 <h5>Social Media</h5>
                 <h6>Find us online!</h6>
+<!------ ul and li class taken from Rosie Odenkirk video, linked in README ------>                
                 <ul class="list-inline social-links">
                     <li class="list-inline-item iconitem">
                         <a target="_blank" href="https://www.facebook.com/MyChemicalRomance/" target="_blank">
@@ -361,7 +368,7 @@
     </footer>
 
 
-
+<!------- jquery and javascript script here to help the carousel animate ------->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

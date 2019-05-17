@@ -48,6 +48,8 @@ Below is a list of languages, frameworks, libraries, and other tools used to cre
 * Bootstrap: To structure the content of the website with the use of containers, rows and columns, aka the grid system, and to make the site responsive on mobile, tablet and desktop views.
 * JavaScript / jQuery: To make my page features more dynamic and animated when used. This was particularly relevant for the Carousel feature's movement.
 * W3Schools: To search for and use code not featured on Bootstrap, and ultimately to see what options the band have when it comes to adding code to the site.
+* YouTube: To help me with code I searched YouTube for relevant tutorials: I used Quentin Watt Tutorials for help with my Carousel: https://www.youtube.com/watch?v=1FnMDubA25A
+* Code Institute: To help me with social links I went back over Code Institute's video for Rosie Odenkirk's CV, specifically the footer section section on adding social links in a list.
 
 ## Testing
 
@@ -70,7 +72,7 @@ I took some guidance from this page: https://help.github.com/en/articles/configu
 ### Content
 
 The text for the About, News and Tour sections were created by Aileen Donegan with inspiration from the band's current Wikipedia page: https://en.wikipedia.org/wiki/My_Chemical_Romance
-
+Coding assistance from Bootstrap, W3Schools, YouTube and Code Institute. Media links credits.
 ### Media
 
 The photos used in this site were obtained from Google Images, with links to separate pages:
@@ -101,3 +103,7 @@ Audio from Apple Music:
 ### Acknowledgements
 
 I received inspiration for the website by the band I loved as a teenager, My Chemical Romance, and the primary colors they used in their work: red, grey, black and white.
+
+### Plagiarism
+
+Every attempt has been made to make sure authors, ideas, links, codes and material developed by others is given proper credit. Any omission is unintentional and will be rectified as quickly and as fully as possible where necessary.

@@ -37,6 +37,7 @@ changing the design and feel of the website. I will keep this in mind next time 
     position: relative;
 }
 
+/* Got help from my tutor Seun with this code as I could figure out how to move my navbar to the right */
 .navbar-nav {
     margin-left: auto;
 }
@@ -59,6 +60,8 @@ changing the design and feel of the website. I will keep this in mind next time 
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/* from Bootstrap */
 
 .navbar-toggler-icon {
     font-size: 30px;
@@ -227,6 +230,8 @@ I feel it adds another layer to the page and draws the user in*/
 
 /* ------------------------------------------ Interviews */
 
+/* This code recommended by Bootstrap for videos */
+
 .embed-responsive-16by9 {
     width: auto;
     height: auto;
@@ -308,6 +313,8 @@ h6 {
     font-weight: 100;
     text-align: center;
 }
+
+/* Again, help from the Rosie Odenkirk code and design */
 
 ul li a i {
     color: white;
