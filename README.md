@@ -10,11 +10,11 @@ They wanted this website created for fans and potential fans to showcase their w
 This website is for fans, potential fans and is a way anyone can get in touch with the band directly.
 On the site, people can listen to audio clips, watch a band interview, see photos of the band, get information about the tour and get in touch.
 
-* As a long-time fan, I want to be kept informed of news and tour information.
-* As a new fan, I want to listen to the band's music and watch videos of previous interviews and music videos.
-* I want to be linked to other social media accounts to see all of their work not listed on the website.
-* As someone who just happens upon the site, I want to know what the band is all about.
-* As a booking agent and promoter, I want to be able to get in touch with this band to play at my event.
+* As a long-time fan, I want to be kept informed of news and tour information. And this website achieves this with its News section that features upcoming tour dates.
+* As a new fan, I want to listen to the band's music and watch videos of previous interviews and music videos. And this website achieves this with its embedded Apple song links and YouTube videos.
+* I want to be linked to other social media accounts to see all of their work not listed on the website. And this website achieves this with its social icon links in the footer that take the user to third-party websites.
+* As someone who just happens upon the site, I want to know what the band is all about. And this website achieves this with some text about the band and its work in nearly all sections. 
+* As a booking agent and promoter, I want to be able to get in touch with this band to play at my event. And this website achieves this with its contact form just before the footer.
 
 Wireframes link:
 
@@ -47,7 +47,10 @@ Below is a list of languages, frameworks, libraries, and other tools used to cre
 
 
 
+
 ## Deployment
+
+I deployed this page using the Master Branch on Github Pages.
 
 ## Credits
 
@@ -60,27 +63,27 @@ The text for the About, News and Tour sections were created by Aileen Donegan wi
 
 The photos used in this site were obtained from Google Images, with links to separate pages:
 
-* headshot1: https://m.media-amazon.com/images/M/MV5BODU1MjZmMGItM2YyYy00NzlkLTkyZmUtNDUxNjE0NTBiOTdlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg 
-* headshot2: https://images.contentstack.io/v3/assets/blt1b60905dd65bfb9b/blt7020320471be4117/5b062bdcff49f05073ac7ea7/gerard-way-interview-3.jpg
-* headshot3: https://www.aceshowbiz.com/images/wennpic/my-chemical-romance-performing-live-at-palasharp-07.jpg
-* frank-iero: https://www.billboard.com/files/media/frank-iero-portrait-billboard-1548.jpg
-* gerard-way: https://www.shemazing.net/wp-content/uploads/2017/07/gee-way-gerard-way-mcr-favim.jpeg
-* mikey-way: https://i0.wp.com/travisfaulk.com/wp-content/uploads/2013/05/Mikey-Way.jpg?resize=500%2C372
-* ray-toro: http://beatnb.org/wp-content/uploads/2014/09/ray-toro-close-up-large-msg-116494353969.jpg
-* favicon: https://data.whicdn.com/images/85952156/large.jpg 
+* [headshot1]: (https://m.media-amazon.com/images/M/MV5BODU1MjZmMGItM2YyYy00NzlkLTkyZmUtNDUxNjE0NTBiOTdlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg) 
+* [headshot2]: (https://images.contentstack.io/v3/assets/blt1b60905dd65bfb9b/blt7020320471be4117/5b062bdcff49f05073ac7ea7/gerard-way-interview-3.jpg)
+* [headshot3]: (https://www.aceshowbiz.com/images/wennpic/my-chemical-romance-performing-live-at-palasharp-07.jpg)
+* [frank-iero]: (https://www.billboard.com/files/media/frank-iero-portrait-billboard-1548.jpg)
+* [gerard-way]: (https://www.shemazing.net/wp-content/uploads/2017/07/gee-way-gerard-way-mcr-favim.jpeg)
+* [mikey-way]: (https://i0.wp.com/travisfaulk.com/wp-content/uploads/2013/05/Mikey-Way.jpg?resize=500%2C372)
+* [ray-toro]: (http://beatnb.org/wp-content/uploads/2014/09/ray-toro-close-up-large-msg-116494353969.jpg)
+* [favicon]: (https://data.whicdn.com/images/85952156/large.jpg) 
 
 The videos used in this site were obtained from Youtube: 
 
-* My Chemical Romance The Grammy Museum Interview Part 2 from My Chemical Romance: https://www.youtube.com/watch?v=035w62kubls
-* Helena official music video: https://www.youtube.com/watch?v=UCCyoocDxBA
-* Welcome to the Black Parade official video: https://www.youtube.com/watch?v=RRKJiM9Njr8
+* [My Chemical Romance The Grammy Museum Interview Part 2 from My Chemical Romance]: (https://www.youtube.com/watch?v=035w62kubls)
+* [Helena official music video]: (https://www.youtube.com/watch?v=UCCyoocDxBA)
+* [Welcome to the Black Parade official video]: (https://www.youtube.com/watch?v=RRKJiM9Njr8)
 
 Audio from Apple Music:
 
-* Early Sunsets Over Monroeville single: https://itunes.apple.com/ie/album/early-sunsets-over-monroeville/1157609234?i=1157610143
-* I'm Not Okay, I Promise single: https://itunes.apple.com/ie/album/im-not-okay-i-promise/1156311431?i=1156311437
-* This Is How I Disappear single: https://itunes.apple.com/ie/album/this-is-how-i-disappear/1156310650?i=1156310690
-* Na Na Na single: https://itunes.apple.com/ie/album/na-na-na-na-na-na-na-na-na-na-na-na/398265947?i=398265949
+* [Early Sunsets Over Monroeville single]: (https://itunes.apple.com/ie/album/early-sunsets-over-monroeville/1157609234?i=1157610143)
+* [I'm Not Okay, I Promise single]: (https://itunes.apple.com/ie/album/im-not-okay-i-promise/1156311431?i=1156311437)
+* [This Is How I Disappear single]: (https://itunes.apple.com/ie/album/this-is-how-i-disappear/1156310650?i=1156310690)
+* [Na Na Na single]: (https://itunes.apple.com/ie/album/na-na-na-na-na-na-na-na-na-na-na-na/398265947?i=398265949)
 
 ### Acknowledgements
 

@@ -7,6 +7,11 @@ body {
     border: 0;
 }
 
+/* A peer on Slack advised me to add this next bit of code to stop scroll bars appearing on my index page - these horizontal 
+scroll bars appeared because, after troubleshooting, I found that adding containers within containers is not how Bootstrap's
+grid system works. By the time this came to my attention I personally felt it was too late to change without drastically 
+changing the design and feel of the website. I will keep this in mind next time I am making a user-centric front end webpage*/
+
 .container-fluid {
     width: 100%;
     overflow-y: hidden;
@@ -169,6 +174,9 @@ h3 {
     padding: 10px;
 }
 
+/* To add some animation and 'live' elements to my page I added this feature.
+I feel it adds another layer to the page and draws the user in*/
+
 .tour-dates:hover {
     background-color: #dc3545;
     transition-duration: 1s;
@@ -177,6 +185,8 @@ h3 {
 
 
 /* ------------------------------------------ Clips */
+
+/* I've added apple embeds so users can listen to snippets and easily go to a place to buy the songs.*/
 
 .apple {
     margin: 10px;
