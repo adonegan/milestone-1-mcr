@@ -15,7 +15,7 @@ On the site, people can listen to audio clips, watch a band interview, see photo
 * As a booking agent and promoter, I want to be able to get in touch with this band to play at my event. And this website achieves this with its contact form just before the footer.
 
 Wireframes link: 
-![Milestone 1 - Desktop .png](/images/milestone1desktop.png)
+![milestone1desktop.png](assets/images/milestone1desktop.png)
 
 ## Features
 
