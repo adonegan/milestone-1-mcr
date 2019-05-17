@@ -14,7 +14,8 @@ On the site, people can listen to audio clips, watch a band interview, see photo
 * As someone who just happens upon the site, I want to know what the band is all about. And this website achieves this with some text about the band and its work in nearly all sections. 
 * As a booking agent and promoter, I want to be able to get in touch with this band to play at my event. And this website achieves this with its contact form just before the footer.
 
-Wireframes link:
+Wireframes link: 
+![Milestone 1 - Desktop .png](/images/milestone1desktop.png)
 
 ## Features
 
